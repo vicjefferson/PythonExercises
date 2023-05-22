@@ -1,0 +1,14 @@
+# Condições simples e compostas
+
+if condicao():
+  do_that
+elif condicao():
+  do_these
+else:
+  do_it
+
+#Condicção simplificada exemplo
+
+tempo = int(input('Quantos anos tem seu carro? '))
+print('carro novo'if tempo <=3 else'carro velho')
+print('---FIM---')
