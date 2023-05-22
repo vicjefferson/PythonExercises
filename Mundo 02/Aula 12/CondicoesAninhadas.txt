@@ -1,0 +1,14 @@
+// FORMATAÇÃO
+
+if condição:
+  execução
+elif condição:
+  execução
+elif condição:
+  execução
+.
+.
+.
+else: //Opicional
+  execução
+

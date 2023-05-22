@@ -1,0 +1,13 @@
+pep - python envestiment propose
+
+f strings 
+
+print(f'A soma vale {soma}')
+
+nome = 'José'
+idade = 33
+print(f'O {nome} tem {idade} anos')
+print(f'O {nome:20} tem {idade} anos')  // espaços no nome
+print(f'O {nome:^20} tem {idade} anos') // Centraliza nome
+
+#Ver modo de interpolação
