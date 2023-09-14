@@ -1,0 +1,36 @@
+=======   Variáveis Compostas   =======
+
+▪️ Tuplas
+▪️ Listas
+▪️ Dicionários
+
+🔸🔹
+
+🔸 TUPLAS 
+tuplas são determinadas por ()
+  lanche = ('hamburguer', 'suco', 'pizza', 'pudim')
+tuplas são IMUTÁVEIS
+  Exceto para apaga-lás por completo, não apenas elementos-> del(lanche) 
+tuplas aceitam diferentes tipos na atribuição
+  pessoa = ('Victor', 22, 'M', 62.5)
+
+print(lanche[2])    -> Imprime a pizza.
+print(lanche[0:2])  -> 0 até 2, porém exclui o indíoce 2. Ou seja, imprime hamburguer e suco.
+print(lanche[1:])   -> Começa no 1 (suco) até o fim.
+print(lanche[-1])   -> Mostra o último elemento da tupla. No caso, o pudim.
+
+🔹métodos
+
+len(lanche)         -> len (comprimento) de lanche é igual a 4 (hamburguer, suco, pizza, pudim)
+
+for c in lanche:    -> cria automaticamente uma variável simples c
+  print(c)          -> imprime cada índice em lanche, não necessitando declarar um intervalo
+
+
+
+
+
+
+
+
+

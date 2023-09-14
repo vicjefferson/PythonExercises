@@ -1,0 +1,26 @@
+dados = dict() # Declarar dicionário
+data = {'nome':'Pedro', 'idade':25}
+
+print(data['nome'])
+print(data['idade'])
+
+# adicionar elementos ao dicionario
+data['sexo'] = 'M'
+# remover elemento
+del data['idade']
+
+#EX@
+
+filme = {
+    'titulo':'Star Wars',
+    'ano':1977,
+    'diretor':'Geroge Lucas'
+}
+
+# Item vs. Chave vs. Elemento
+print(filme.values()) # Star Wars | 1977 | George Lucas -> valores
+print(filme.keys())   # titulo    | ano  | diretor      -> Chaves
+print(filme.items())  # MOSTRA AMBOS
+
+for k, v in filme.items():
+    print(f'O {k} é {v}')

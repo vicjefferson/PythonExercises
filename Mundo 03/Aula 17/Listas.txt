@@ -1,0 +1,29 @@
+=======   Variáveis Compostas   =======
+
+▪️ Tuplas
+▪️ Listas
+▪️ Dicionários
+
+🔸🔹
+
+🔸 Listas
+
+COPIANDO LISTA
+a = [1, 2, 3, 4]
+b = a
+print(a) // [1, 2, 3, 4]
+print(b) // [1, 2, 3, 4]
+
+b[2] = 8
+print(a) // [1, 2, 8, 4]
+print(b) // [1, 2, 8, 4]
+
+COPIANDO VALORES DE UMA LISTA
+a = [1, 2, 3, 4]
+b = a[:]
+print(a) // [1, 2, 3, 4]
+print(b) // [1, 2, 3, 4]
+
+b[2] = 8
+print(a) // [1, 2, 3, 4]
+print(b) // [1, 2, 8, 4]
